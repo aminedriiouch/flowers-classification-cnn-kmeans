@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset (IMPORTANT - ne pas commit les images!)
+data/
+*.zip
+*.tar.gz
+
+# Modèles (parfois trop lourds)
+models/*.h5
+models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Résultats temporaires
+*.log
+temp/
